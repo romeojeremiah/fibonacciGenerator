@@ -5,6 +5,8 @@ where n is the number of items in the sequence. So, fibonacciGenerator(3) should
 function fibonacciGenerator (n) {
 //initialize the array with the first 2 numbers in the sequence    
 var array = [0,1];
+    
+    
 //if we want to return 0 numbers from the sequence, we need to return an empty array
 if (n < 0){
     alert('Number must be greater than 0!');
